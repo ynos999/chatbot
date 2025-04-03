@@ -21,4 +21,11 @@
 ### docker build -t chatbot-image .
 ### docker run -it chatbot-image
 ###
-###### No use: docker run -p 5000:5000 chatbot-image
+### --- Push to Docker Hub ---
+### docker login
+### docker tag <local-image>:<tag> <dockerhub-username>/<repository-name>:<tag>
+### docker push <dockerhub-username>/<repository-name>:<tag>
+###
+## docker image ls
+## docker tag chatbot-image:latest ynos999/chatbot:0.1
+### docker push ynos999/chatbot:0.1
