@@ -27,5 +27,5 @@
 ### docker push <dockerhub-username>/<repository-name>:<tag>
 ###
 ## docker image ls
-## docker tag chatbot-image:latest ynos999/chatbot:0.1
-### docker push ynos999/chatbot:0.1
+## docker tag chatbot-image:latest dockerhub-username/chatbot:0.1
+### docker push dockerhub-username/chatbot:0.1
