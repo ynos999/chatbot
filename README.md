@@ -11,3 +11,6 @@
 ## git add .
 ## git commit -m "Last update Chatbot"
 ## git push origin main
+
+### Create .env file
+### Add GEMINI_API_KEY=Your_KEY
