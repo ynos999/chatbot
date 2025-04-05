@@ -19,17 +19,11 @@ def chatbot():
 
     model = genai.GenerativeModel("gemini-1.5-pro")
 
-    print("Chatbot: Hello! Type 'exit' to end the conversation.")
+    question = "What is your name?"
+    print("You:", question)
 
-    while True:
-        user_input = input("You: ")
-        if user_input.lower() == 'exit':
-            print("Chatbot: Goodbye!")
-            break
-
-        # Generate response from the model
-        response = model.generate_content(user_input)
-        print("Chatbot:", response.text)
+    response = model.generate_content(question)
+    print("Chatbot:", response.text)
 
 
 if __name__ == "__main__":
