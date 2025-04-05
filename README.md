@@ -19,14 +19,13 @@
 ### GEMINI_API_KEY=Your_API_KEY
 ###
 ### --- Docker Build ---
-### docker build -t chatbot-image .
-### docker build -t chatbot-image:0.1 .
-### docker run -it chatbot-image
+### docker build -t chatbot-image:0.3 .
+### docker run -it chatbot-image:0.3
 ###
 ### --- Push to Docker Hub ---
 ###
 ### docker login
 ###
 ## docker image ls
-## docker tag chatbot-image:0.1 dockerhub-username/chatbot:0.1
-### docker push dockerhub-username/chatbot:0.1
+## docker tag chatbot-image:0.3 dockerhub-username/chatbot:0.3
+### docker push dockerhub-username/chatbot:0.3
