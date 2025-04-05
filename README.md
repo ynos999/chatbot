@@ -15,17 +15,17 @@
 ### git push origin main
 ###
 ### --- Create .env file ---
-### Add GEMINI_API_KEY=Your_KEY
+### Add 
+### GEMINI_API_KEY=Your_API_KEY
 ###
-### --- Docker ---
+### --- Docker Build ---
 ### docker build -t chatbot-image .
 ### docker build -t chatbot-image:0.1 .
 ### docker run -it chatbot-image
 ###
 ### --- Push to Docker Hub ---
+###
 ### docker login
-### docker tag <local-image>:<tag> <dockerhub-username>/<repository-name>:<tag>
-### docker push <dockerhub-username>/<repository-name>:<tag>
 ###
 ## docker image ls
 ## docker tag chatbot-image:0.1 dockerhub-username/chatbot:0.1
